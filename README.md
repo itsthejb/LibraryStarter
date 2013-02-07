@@ -1,4 +1,4 @@
-ragoo
+Ragoo
 =====
 
 A general purpose Cocoa library.
