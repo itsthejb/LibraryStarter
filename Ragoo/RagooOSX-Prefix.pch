@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Ragoo' target in the 'Ragoo' project
+//
+
+#ifdef __OBJC__
+  #import "Ragoo-Prefix.pch"
+  #import <AppKit/AppKit.h>
+#endif
