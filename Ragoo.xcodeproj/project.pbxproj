@@ -16,6 +16,13 @@
 		497AC1EE16CEA5B800A5929C /* libRagoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1D516CEA5B800A5929C /* libRagoo.a */; };
 		497AC1F416CEA5B800A5929C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 497AC1F216CEA5B800A5929C /* InfoPlist.strings */; };
 		497AC1F716CEA5B800A5929C /* RagooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 497AC1F616CEA5B800A5929C /* RagooTests.m */; };
+		497AC22016CEA68F00A5929C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21F16CEA68F00A5929C /* Cocoa.framework */; };
+		497AC22A16CEA68F00A5929C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 497AC22816CEA68F00A5929C /* InfoPlist.strings */; };
+		497AC22E16CEA68F00A5929C /* RagooFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 497AC22D16CEA68F00A5929C /* RagooFramework.m */; };
+		497AC23516CEA69000A5929C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1E716CEA5B800A5929C /* SenTestingKit.framework */; };
+		497AC23616CEA69000A5929C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21F16CEA68F00A5929C /* Cocoa.framework */; };
+		497AC23916CEA69000A5929C /* RagooFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21E16CEA68F00A5929C /* RagooFramework.framework */; };
+		497AC24C16CEA6C600A5929C /* Ragoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 497AC1DF16CEA5B800A5929C /* Ragoo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +32,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 497AC1D416CEA5B800A5929C;
 			remoteInfo = Ragoo;
+		};
+		497AC23716CEA69000A5929C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497AC1CD16CEA5B800A5929C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497AC21D16CEA68F00A5929C;
+			remoteInfo = RagooFramework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,6 +68,17 @@
 		497AC1F316CEA5B800A5929C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		497AC1F516CEA5B800A5929C /* RagooTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RagooTests.h; sourceTree = "<group>"; };
 		497AC1F616CEA5B800A5929C /* RagooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RagooTests.m; sourceTree = "<group>"; };
+		497AC21E16CEA68F00A5929C /* RagooFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RagooFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		497AC21F16CEA68F00A5929C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		497AC22216CEA68F00A5929C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		497AC22316CEA68F00A5929C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		497AC22416CEA68F00A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		497AC22716CEA68F00A5929C /* RagooFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RagooFramework-Info.plist"; sourceTree = "<group>"; };
+		497AC22916CEA68F00A5929C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		497AC22B16CEA68F00A5929C /* RagooFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RagooFramework-Prefix.pch"; sourceTree = "<group>"; };
+		497AC22C16CEA68F00A5929C /* RagooFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RagooFramework.h; sourceTree = "<group>"; };
+		497AC22D16CEA68F00A5929C /* RagooFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RagooFramework.m; sourceTree = "<group>"; };
+		497AC23416CEA69000A5929C /* RagooFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagooFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +101,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		497AC21A16CEA68F00A5929C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497AC22016CEA68F00A5929C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497AC23016CEA69000A5929C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497AC23516CEA69000A5929C /* SenTestingKit.framework in Frameworks */,
+				497AC23616CEA69000A5929C /* Cocoa.framework in Frameworks */,
+				497AC23916CEA69000A5929C /* RagooFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				497AC1DA16CEA5B800A5929C /* Ragoo */,
-				497AC1EF16CEA5B800A5929C /* RagooTests */,
+				497AC1EF16CEA5B800A5929C /* Tests */,
+				497AC22516CEA68F00A5929C /* RagooFramework */,
 				497AC1D716CEA5B800A5929C /* Frameworks */,
 				497AC1D616CEA5B800A5929C /* Products */,
 			);
@@ -94,6 +138,8 @@
 			children = (
 				497AC1D516CEA5B800A5929C /* libRagoo.a */,
 				497AC1E616CEA5B800A5929C /* RagooTests.octest */,
+				497AC21E16CEA68F00A5929C /* RagooFramework.framework */,
+				497AC23416CEA69000A5929C /* RagooFrameworkTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +150,8 @@
 				497AC1D816CEA5B800A5929C /* Foundation.framework */,
 				497AC1E716CEA5B800A5929C /* SenTestingKit.framework */,
 				497AC1E916CEA5B800A5929C /* UIKit.framework */,
+				497AC21F16CEA68F00A5929C /* Cocoa.framework */,
+				497AC22116CEA68F00A5929C /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +159,9 @@
 		497AC1DA16CEA5B800A5929C /* Ragoo */ = {
 			isa = PBXGroup;
 			children = (
-				497AC1DD16CEA5B800A5929C /* Ragoo.h */,
-				497AC1DF16CEA5B800A5929C /* Ragoo.m */,
+				497AC24916CEA6A700A5929C /* Shared */,
+				497AC24B16CEA6B700A5929C /* OS X */,
+				497AC24A16CEA6AC00A5929C /* iOS */,
 				497AC1DB16CEA5B800A5929C /* Supporting Files */,
 			);
 			path = Ragoo;
@@ -126,13 +175,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		497AC1EF16CEA5B800A5929C /* RagooTests */ = {
+		497AC1EF16CEA5B800A5929C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				497AC1F516CEA5B800A5929C /* RagooTests.h */,
 				497AC1F616CEA5B800A5929C /* RagooTests.m */,
 				497AC1F016CEA5B800A5929C /* Supporting Files */,
 			);
+			name = Tests;
 			path = RagooTests;
 			sourceTree = "<group>";
 		};
@@ -145,7 +195,70 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		497AC22116CEA68F00A5929C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				497AC22216CEA68F00A5929C /* AppKit.framework */,
+				497AC22316CEA68F00A5929C /* CoreData.framework */,
+				497AC22416CEA68F00A5929C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		497AC22516CEA68F00A5929C /* RagooFramework */ = {
+			isa = PBXGroup;
+			children = (
+				497AC22C16CEA68F00A5929C /* RagooFramework.h */,
+				497AC22D16CEA68F00A5929C /* RagooFramework.m */,
+				497AC22616CEA68F00A5929C /* Supporting Files */,
+			);
+			path = RagooFramework;
+			sourceTree = "<group>";
+		};
+		497AC22616CEA68F00A5929C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				497AC22716CEA68F00A5929C /* RagooFramework-Info.plist */,
+				497AC22816CEA68F00A5929C /* InfoPlist.strings */,
+				497AC22B16CEA68F00A5929C /* RagooFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		497AC24916CEA6A700A5929C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				497AC1DD16CEA5B800A5929C /* Ragoo.h */,
+				497AC1DF16CEA5B800A5929C /* Ragoo.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		497AC24A16CEA6AC00A5929C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		497AC24B16CEA6B700A5929C /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		497AC21B16CEA68F00A5929C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		497AC1D416CEA5B800A5929C /* Ragoo */ = {
@@ -184,6 +297,43 @@
 			productReference = 497AC1E616CEA5B800A5929C /* RagooTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		497AC21D16CEA68F00A5929C /* RagooFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497AC24716CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFramework" */;
+			buildPhases = (
+				497AC21916CEA68F00A5929C /* Sources */,
+				497AC21A16CEA68F00A5929C /* Frameworks */,
+				497AC21B16CEA68F00A5929C /* Headers */,
+				497AC21C16CEA68F00A5929C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RagooFramework;
+			productName = RagooFramework;
+			productReference = 497AC21E16CEA68F00A5929C /* RagooFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		497AC23316CEA69000A5929C /* RagooFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497AC24816CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFrameworkTests" */;
+			buildPhases = (
+				497AC22F16CEA69000A5929C /* Sources */,
+				497AC23016CEA69000A5929C /* Frameworks */,
+				497AC23116CEA69000A5929C /* Resources */,
+				497AC23216CEA69000A5929C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497AC23816CEA69000A5929C /* PBXTargetDependency */,
+			);
+			name = RagooFrameworkTests;
+			productName = RagooFrameworkTests;
+			productReference = 497AC23416CEA69000A5929C /* RagooFrameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,7 +355,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				497AC21D16CEA68F00A5929C /* RagooFramework */,
 				497AC1D416CEA5B800A5929C /* Ragoo */,
+				497AC23316CEA69000A5929C /* RagooFrameworkTests */,
 				497AC1E516CEA5B800A5929C /* RagooTests */,
 			);
 		};
@@ -220,10 +372,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		497AC21C16CEA68F00A5929C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497AC22A16CEA68F00A5929C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497AC23116CEA69000A5929C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		497AC1E416CEA5B800A5929C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		497AC23216CEA69000A5929C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,6 +435,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		497AC21916CEA68F00A5929C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497AC22E16CEA68F00A5929C /* RagooFramework.m in Sources */,
+				497AC24C16CEA6C600A5929C /* Ragoo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497AC22F16CEA69000A5929C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -263,6 +459,11 @@
 			target = 497AC1D416CEA5B800A5929C /* Ragoo */;
 			targetProxy = 497AC1EC16CEA5B800A5929C /* PBXContainerItemProxy */;
 		};
+		497AC23816CEA69000A5929C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497AC21D16CEA68F00A5929C /* RagooFramework */;
+			targetProxy = 497AC23716CEA69000A5929C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -270,6 +471,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				497AC1F316CEA5B800A5929C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		497AC22816CEA68F00A5929C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497AC22916CEA68F00A5929C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -384,6 +593,92 @@
 			};
 			name = Release;
 		};
+		497AC24316CEA69000A5929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RagooFramework/RagooFramework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "RagooFramework/RagooFramework-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		497AC24416CEA69000A5929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RagooFramework/RagooFramework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "RagooFramework/RagooFramework-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		497AC24516CEA69000A5929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RagooFramework/RagooFramework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "RagooFrameworkTests/RagooFrameworkTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		497AC24616CEA69000A5929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RagooFramework/RagooFramework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "RagooFrameworkTests/RagooFrameworkTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,12 +698,30 @@
 				497AC1FC16CEA5B800A5929C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497AC1FD16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "RagooTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497AC1FE16CEA5B800A5929C /* Debug */,
 				497AC1FF16CEA5B800A5929C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497AC24716CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497AC24316CEA69000A5929C /* Debug */,
+				497AC24416CEA69000A5929C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		497AC24816CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497AC24516CEA69000A5929C /* Debug */,
+				497AC24616CEA69000A5929C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
