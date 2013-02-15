@@ -64,10 +64,10 @@
 		497AC1E616CEA5B800A5929C /* RagooTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagooTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1E716CEA5B800A5929C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		497AC1E916CEA5B800A5929C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		497AC1F116CEA5B800A5929C /* RagooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RagooTests-Info.plist"; sourceTree = "<group>"; };
+		497AC1F116CEA5B800A5929C /* RagooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "RagooTests-Info.plist"; path = "Tests/RagooTests-Info.plist"; sourceTree = "<group>"; };
 		497AC1F316CEA5B800A5929C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		497AC1F516CEA5B800A5929C /* RagooTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RagooTests.h; sourceTree = "<group>"; };
-		497AC1F616CEA5B800A5929C /* RagooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RagooTests.m; sourceTree = "<group>"; };
+		497AC1F516CEA5B800A5929C /* RagooTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RagooTests.h; path = Tests/RagooTests.h; sourceTree = "<group>"; };
+		497AC1F616CEA5B800A5929C /* RagooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RagooTests.m; path = Tests/RagooTests.m; sourceTree = "<group>"; };
 		497AC21E16CEA68F00A5929C /* RagooFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RagooFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC21F16CEA68F00A5929C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		497AC22216CEA68F00A5929C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -474,6 +474,7 @@
 				497AC1F316CEA5B800A5929C /* en */,
 			);
 			name = InfoPlist.strings;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		497AC22816CEA68F00A5929C /* InfoPlist.strings */ = {
