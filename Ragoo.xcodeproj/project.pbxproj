@@ -340,6 +340,7 @@
 		497AC1CD16CEA5B800A5929C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RG;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = jc;
 			};
@@ -716,6 +717,7 @@
 				497AC24416CEA69000A5929C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497AC24816CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +726,7 @@
 				497AC24616CEA69000A5929C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
