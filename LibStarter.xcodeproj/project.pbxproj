@@ -48,9 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4926718B16D0339700595493 /* LibStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LibStarter-Info.plist"; path = "Source/LibStarter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4926718C16D0339700595493 /* LibStarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarter-Prefix.pch"; path = "Source/LibStarter-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4926718D16D0339700595493 /* LibStarteriOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarteriOS-Prefix.pch"; path = "Source/LibStarteriOS-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4926718E16D0339700595493 /* LibStarterOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarterOSX-Prefix.pch"; path = "Source/LibStarterOSX-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		497AC1D516CEA5B800A5929C /* libLibStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibStarter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1D816CEA5B800A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		497AC1DC16CEA5B800A5929C /* LibStarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarter-Prefix.pch"; path = "Source/LibStarter-Prefix.pch"; sourceTree = "<group>"; };
 		497AC1E616CEA5B800A5929C /* LibStarterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStarterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1E716CEA5B800A5929C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		497AC1E916CEA5B800A5929C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,9 +63,6 @@
 		497AC22316CEA68F00A5929C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		497AC22416CEA68F00A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		497AC23416CEA69000A5929C /* LibStarterFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStarterFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49CA6EBB16CEA91A00661212 /* LibStarterOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarterOSX-Prefix.pch"; path = "Source/LibStarterOSX-Prefix.pch"; sourceTree = "<group>"; };
-		49CA6EBC16CEA94400661212 /* LibStarteriOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarteriOS-Prefix.pch"; path = "Source/LibStarteriOS-Prefix.pch"; sourceTree = "<group>"; };
-		49CA6EBD16CEA9D500661212 /* LibStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "LibStarter-Info.plist"; path = "Source/LibStarter-Info.plist"; sourceTree = "<group>"; };
 		49CA6EC616CEAAD800661212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49CA6EC716CEAAD800661212 /* LibStarterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LibStarterTests-Info.plist"; path = "Tests/LibStarterTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -156,10 +156,10 @@
 		497AC1DB16CEA5B800A5929C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49CA6EBD16CEA9D500661212 /* LibStarter-Info.plist */,
-				49CA6EBB16CEA91A00661212 /* LibStarterOSX-Prefix.pch */,
-				49CA6EBC16CEA94400661212 /* LibStarteriOS-Prefix.pch */,
-				497AC1DC16CEA5B800A5929C /* LibStarter-Prefix.pch */,
+				4926718B16D0339700595493 /* LibStarter-Info.plist */,
+				4926718C16D0339700595493 /* LibStarter-Prefix.pch */,
+				4926718D16D0339700595493 /* LibStarteriOS-Prefix.pch */,
+				4926718E16D0339700595493 /* LibStarterOSX-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
