@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 jc. All rights reserved.
 //
 
-#import "RagooTests.h"
+#import "LibStarterTests.h"
 
 @implementation RagooTests
 

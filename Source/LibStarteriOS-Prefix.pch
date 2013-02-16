@@ -3,6 +3,6 @@
 //
 
 #ifdef __OBJC__
-  #import "Ragoo-Prefix.pch"
+  #import "LibStarter-Prefix.pch"
   #import <UIKit/UIKit.h>
 #endif
