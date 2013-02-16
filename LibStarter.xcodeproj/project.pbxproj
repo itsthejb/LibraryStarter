@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49664CA916D02DE2001814CD /* LibStarter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49664CA716D02DE2001814CD /* LibStarter.h */; };
-		49664CAA16D02DE2001814CD /* LibStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49664CA816D02DE2001814CD /* LibStarter.m */; };
-		49664CAB16D02DE2001814CD /* LibStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49664CA816D02DE2001814CD /* LibStarter.m */; };
 		497AC1D916CEA5B800A5929C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1D816CEA5B800A5929C /* Foundation.framework */; };
 		497AC1E816CEA5B800A5929C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1E716CEA5B800A5929C /* SenTestingKit.framework */; };
 		497AC1EA16CEA5B800A5929C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1E916CEA5B800A5929C /* UIKit.framework */; };
@@ -19,8 +16,6 @@
 		497AC23516CEA69000A5929C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1E716CEA5B800A5929C /* SenTestingKit.framework */; };
 		497AC23616CEA69000A5929C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21F16CEA68F00A5929C /* Cocoa.framework */; };
 		497AC23916CEA69000A5929C /* LibStarterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21E16CEA68F00A5929C /* LibStarterFramework.framework */; };
-		49CA6EC316CEAAC800661212 /* LibStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6EC216CEAAC800661212 /* LibStarterTests.m */; };
-		49CA6EC416CEAAC800661212 /* LibStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6EC216CEAAC800661212 /* LibStarterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		49664CA716D02DE2001814CD /* LibStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LibStarter.h; path = Source/LibStarter.h; sourceTree = SOURCE_ROOT; };
-		49664CA816D02DE2001814CD /* LibStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LibStarter.m; path = Source/LibStarter.m; sourceTree = SOURCE_ROOT; };
+		4926718B16D0339700595493 /* LibStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LibStarter-Info.plist"; path = "Source/LibStarter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4926718C16D0339700595493 /* LibStarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarter-Prefix.pch"; path = "Source/LibStarter-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4926718D16D0339700595493 /* LibStarteriOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarteriOS-Prefix.pch"; path = "Source/LibStarteriOS-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4926718E16D0339700595493 /* LibStarterOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarterOSX-Prefix.pch"; path = "Source/LibStarterOSX-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		497AC1D516CEA5B800A5929C /* libLibStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibStarter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1D816CEA5B800A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		497AC1DC16CEA5B800A5929C /* LibStarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarter-Prefix.pch"; path = "Source/LibStarter-Prefix.pch"; sourceTree = "<group>"; };
 		497AC1E616CEA5B800A5929C /* LibStarterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStarterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1E716CEA5B800A5929C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		497AC1E916CEA5B800A5929C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,11 +63,6 @@
 		497AC22316CEA68F00A5929C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		497AC22416CEA68F00A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		497AC23416CEA69000A5929C /* LibStarterFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStarterFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49CA6EBB16CEA91A00661212 /* LibStarterOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarterOSX-Prefix.pch"; path = "Source/LibStarterOSX-Prefix.pch"; sourceTree = "<group>"; };
-		49CA6EBC16CEA94400661212 /* LibStarteriOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarteriOS-Prefix.pch"; path = "Source/LibStarteriOS-Prefix.pch"; sourceTree = "<group>"; };
-		49CA6EBD16CEA9D500661212 /* LibStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "LibStarter-Info.plist"; path = "Source/LibStarter-Info.plist"; sourceTree = "<group>"; };
-		49CA6EC116CEAAC800661212 /* LibStarterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LibStarterTests.h; path = Tests/LibStarterTests.h; sourceTree = SOURCE_ROOT; };
-		49CA6EC216CEAAC800661212 /* LibStarterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LibStarterTests.m; path = Tests/LibStarterTests.m; sourceTree = SOURCE_ROOT; };
 		49CA6EC616CEAAD800661212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		49CA6EC716CEAAD800661212 /* LibStarterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LibStarterTests-Info.plist"; path = "Tests/LibStarterTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -165,10 +156,10 @@
 		497AC1DB16CEA5B800A5929C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49CA6EBD16CEA9D500661212 /* LibStarter-Info.plist */,
-				49CA6EBB16CEA91A00661212 /* LibStarterOSX-Prefix.pch */,
-				49CA6EBC16CEA94400661212 /* LibStarteriOS-Prefix.pch */,
-				497AC1DC16CEA5B800A5929C /* LibStarter-Prefix.pch */,
+				4926718B16D0339700595493 /* LibStarter-Info.plist */,
+				4926718C16D0339700595493 /* LibStarter-Prefix.pch */,
+				4926718D16D0339700595493 /* LibStarteriOS-Prefix.pch */,
+				4926718E16D0339700595493 /* LibStarterOSX-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -177,8 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				497AC1F016CEA5B800A5929C /* Supporting Files */,
-				49CA6EC116CEAAC800661212 /* LibStarterTests.h */,
-				49CA6EC216CEAAC800661212 /* LibStarterTests.m */,
 			);
 			name = Tests;
 			path = LibStarterTests;
@@ -206,8 +195,6 @@
 		497AC24916CEA6A700A5929C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				49664CA716D02DE2001814CD /* LibStarter.h */,
-				49664CA816D02DE2001814CD /* LibStarter.m */,
 			);
 			name = Shared;
 			path = Source;
@@ -234,7 +221,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49664CA916D02DE2001814CD /* LibStarter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49664CAB16D02DE2001814CD /* LibStarter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49CA6EC416CEAAC800661212 /* LibStarterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +402,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49664CAA16D02DE2001814CD /* LibStarter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +409,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49CA6EC316CEAAC800661212 /* LibStarterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
