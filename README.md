@@ -1,4 +1,4 @@
-Ragoo
-=====
+LibraryStarter
+==============
 
-A general purpose Cocoa library.
+Simple starting point for an iOS/OSX library and framework project with tests.
