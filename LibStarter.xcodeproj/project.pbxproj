@@ -13,11 +13,11 @@
 		497AC1E816CEA5B800A5929C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1E716CEA5B800A5929C /* SenTestingKit.framework */; };
 		497AC1EA16CEA5B800A5929C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1E916CEA5B800A5929C /* UIKit.framework */; };
 		497AC1EB16CEA5B800A5929C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1D816CEA5B800A5929C /* Foundation.framework */; };
-		497AC1EE16CEA5B800A5929C /* libRagoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1D516CEA5B800A5929C /* libRagoo.a */; };
+		497AC1EE16CEA5B800A5929C /* libLibStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1D516CEA5B800A5929C /* libLibStarter.a */; };
 		497AC22016CEA68F00A5929C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21F16CEA68F00A5929C /* Cocoa.framework */; };
 		497AC23516CEA69000A5929C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC1E716CEA5B800A5929C /* SenTestingKit.framework */; };
 		497AC23616CEA69000A5929C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21F16CEA68F00A5929C /* Cocoa.framework */; };
-		497AC23916CEA69000A5929C /* RagooFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21E16CEA68F00A5929C /* RagooFramework.framework */; };
+		497AC23916CEA69000A5929C /* LibStarterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AC21E16CEA68F00A5929C /* LibStarterFramework.framework */; };
 		497AC24C16CEA6C600A5929C /* Ragoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 497AC1DF16CEA5B800A5929C /* Ragoo.m */; };
 		49CA6EC316CEAAC800661212 /* RagooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6EC216CEAAC800661212 /* RagooTests.m */; };
 		49CA6EC416CEAAC800661212 /* RagooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA6EC216CEAAC800661212 /* RagooTests.m */; };
@@ -54,23 +54,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		497AC1D516CEA5B800A5929C /* libRagoo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRagoo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		497AC1D516CEA5B800A5929C /* libLibStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibStarter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1D816CEA5B800A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		497AC1DC16CEA5B800A5929C /* Ragoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ragoo-Prefix.pch"; sourceTree = "<group>"; };
 		497AC1DD16CEA5B800A5929C /* Ragoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ragoo.h; sourceTree = "<group>"; };
 		497AC1DF16CEA5B800A5929C /* Ragoo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ragoo.m; sourceTree = "<group>"; };
-		497AC1E616CEA5B800A5929C /* RagooTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagooTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497AC1E616CEA5B800A5929C /* LibStarterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStarterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1E716CEA5B800A5929C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		497AC1E916CEA5B800A5929C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		497AC21E16CEA68F00A5929C /* RagooFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RagooFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		497AC21E16CEA68F00A5929C /* LibStarterFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibStarterFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC21F16CEA68F00A5929C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		497AC22216CEA68F00A5929C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		497AC22316CEA68F00A5929C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		497AC22416CEA68F00A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		497AC23416CEA69000A5929C /* RagooFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagooFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49CA6EBB16CEA91A00661212 /* RagooOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RagooOSX-Prefix.pch"; sourceTree = "<group>"; };
-		49CA6EBC16CEA94400661212 /* RagooiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RagooiOS-Prefix.pch"; sourceTree = "<group>"; };
-		49CA6EBD16CEA9D500661212 /* Ragoo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ragoo-Info.plist"; sourceTree = "<group>"; };
+		497AC23416CEA69000A5929C /* LibStarterFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStarterFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CA6EBB16CEA91A00661212 /* LibStarterOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibStarterOSX-Prefix.pch"; sourceTree = "<group>"; };
+		49CA6EBC16CEA94400661212 /* LibStarteriOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibStarteriOS-Prefix.pch"; sourceTree = "<group>"; };
+		49CA6EBD16CEA9D500661212 /* LibStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibStarter-Info.plist"; sourceTree = "<group>"; };
 		49CA6EC116CEAAC800661212 /* RagooTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RagooTests.h; path = Tests/RagooTests.h; sourceTree = SOURCE_ROOT; };
 		49CA6EC216CEAAC800661212 /* RagooTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RagooTests.m; path = Tests/RagooTests.m; sourceTree = SOURCE_ROOT; };
 		49CA6EC616CEAAD800661212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
@@ -93,7 +93,7 @@
 				497AC1E816CEA5B800A5929C /* SenTestingKit.framework in Frameworks */,
 				497AC1EA16CEA5B800A5929C /* UIKit.framework in Frameworks */,
 				497AC1EB16CEA5B800A5929C /* Foundation.framework in Frameworks */,
-				497AC1EE16CEA5B800A5929C /* libRagoo.a in Frameworks */,
+				497AC1EE16CEA5B800A5929C /* libLibStarter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 			files = (
 				497AC23516CEA69000A5929C /* SenTestingKit.framework in Frameworks */,
 				497AC23616CEA69000A5929C /* Cocoa.framework in Frameworks */,
-				497AC23916CEA69000A5929C /* RagooFramework.framework in Frameworks */,
+				497AC23916CEA69000A5929C /* LibStarterFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 		497AC1CC16CEA5B800A5929C = {
 			isa = PBXGroup;
 			children = (
-				497AC1DA16CEA5B800A5929C /* Ragoo */,
+				497AC1DA16CEA5B800A5929C /* Source */,
 				497AC1EF16CEA5B800A5929C /* Tests */,
 				497AC1D716CEA5B800A5929C /* Frameworks */,
 				497AC1D616CEA5B800A5929C /* Products */,
@@ -131,10 +131,10 @@
 		497AC1D616CEA5B800A5929C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				497AC1D516CEA5B800A5929C /* libRagoo.a */,
-				497AC1E616CEA5B800A5929C /* RagooTests.octest */,
-				497AC21E16CEA68F00A5929C /* RagooFramework.framework */,
-				497AC23416CEA69000A5929C /* RagooFrameworkTests.octest */,
+				497AC1D516CEA5B800A5929C /* libLibStarter.a */,
+				497AC1E616CEA5B800A5929C /* LibStarterTests.octest */,
+				497AC21E16CEA68F00A5929C /* LibStarterFramework.framework */,
+				497AC23416CEA69000A5929C /* LibStarterFrameworkTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		497AC1DA16CEA5B800A5929C /* Ragoo */ = {
+		497AC1DA16CEA5B800A5929C /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				497AC24916CEA6A700A5929C /* Shared */,
@@ -159,15 +159,16 @@
 				497AC24A16CEA6AC00A5929C /* iOS */,
 				497AC1DB16CEA5B800A5929C /* Supporting Files */,
 			);
+			name = Source;
 			path = Ragoo;
 			sourceTree = "<group>";
 		};
 		497AC1DB16CEA5B800A5929C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49CA6EBD16CEA9D500661212 /* Ragoo-Info.plist */,
-				49CA6EBB16CEA91A00661212 /* RagooOSX-Prefix.pch */,
-				49CA6EBC16CEA94400661212 /* RagooiOS-Prefix.pch */,
+				49CA6EBD16CEA9D500661212 /* LibStarter-Info.plist */,
+				49CA6EBB16CEA91A00661212 /* LibStarterOSX-Prefix.pch */,
+				49CA6EBC16CEA94400661212 /* LibStarteriOS-Prefix.pch */,
 				497AC1DC16CEA5B800A5929C /* Ragoo-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -239,9 +240,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		497AC1D416CEA5B800A5929C /* Ragoo */ = {
+		497AC1D416CEA5B800A5929C /* LibStarter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 497AC1FA16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "Ragoo" */;
+			buildConfigurationList = 497AC1FA16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "LibStarter" */;
 			buildPhases = (
 				497AC1D116CEA5B800A5929C /* Sources */,
 				497AC1D216CEA5B800A5929C /* Frameworks */,
@@ -251,14 +252,14 @@
 			);
 			dependencies = (
 			);
-			name = Ragoo;
+			name = LibStarter;
 			productName = Ragoo;
-			productReference = 497AC1D516CEA5B800A5929C /* libRagoo.a */;
+			productReference = 497AC1D516CEA5B800A5929C /* libLibStarter.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		497AC1E516CEA5B800A5929C /* RagooTests */ = {
+		497AC1E516CEA5B800A5929C /* LibStarterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 497AC1FD16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "RagooTests" */;
+			buildConfigurationList = 497AC1FD16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "LibStarterTests" */;
 			buildPhases = (
 				497AC1E116CEA5B800A5929C /* Sources */,
 				497AC1E216CEA5B800A5929C /* Frameworks */,
@@ -270,14 +271,14 @@
 			dependencies = (
 				497AC1ED16CEA5B800A5929C /* PBXTargetDependency */,
 			);
-			name = RagooTests;
+			name = LibStarterTests;
 			productName = RagooTests;
-			productReference = 497AC1E616CEA5B800A5929C /* RagooTests.octest */;
+			productReference = 497AC1E616CEA5B800A5929C /* LibStarterTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		497AC21D16CEA68F00A5929C /* RagooFramework */ = {
+		497AC21D16CEA68F00A5929C /* LibStarterFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 497AC24716CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFramework" */;
+			buildConfigurationList = 497AC24716CEA69000A5929C /* Build configuration list for PBXNativeTarget "LibStarterFramework" */;
 			buildPhases = (
 				497AC21916CEA68F00A5929C /* Sources */,
 				497AC21A16CEA68F00A5929C /* Frameworks */,
@@ -288,14 +289,14 @@
 			);
 			dependencies = (
 			);
-			name = RagooFramework;
+			name = LibStarterFramework;
 			productName = RagooFramework;
-			productReference = 497AC21E16CEA68F00A5929C /* RagooFramework.framework */;
+			productReference = 497AC21E16CEA68F00A5929C /* LibStarterFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		497AC23316CEA69000A5929C /* RagooFrameworkTests */ = {
+		497AC23316CEA69000A5929C /* LibStarterFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 497AC24816CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFrameworkTests" */;
+			buildConfigurationList = 497AC24816CEA69000A5929C /* Build configuration list for PBXNativeTarget "LibStarterFrameworkTests" */;
 			buildPhases = (
 				497AC22F16CEA69000A5929C /* Sources */,
 				497AC23016CEA69000A5929C /* Frameworks */,
@@ -307,9 +308,9 @@
 			dependencies = (
 				497AC23816CEA69000A5929C /* PBXTargetDependency */,
 			);
-			name = RagooFrameworkTests;
+			name = LibStarterFrameworkTests;
 			productName = RagooFrameworkTests;
-			productReference = 497AC23416CEA69000A5929C /* RagooFrameworkTests.octest */;
+			productReference = 497AC23416CEA69000A5929C /* LibStarterFrameworkTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -322,7 +323,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = jc;
 			};
-			buildConfigurationList = 497AC1D016CEA5B800A5929C /* Build configuration list for PBXProject "Ragoo" */;
+			buildConfigurationList = 497AC1D016CEA5B800A5929C /* Build configuration list for PBXProject "LibStarter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -334,10 +335,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				497AC21D16CEA68F00A5929C /* RagooFramework */,
-				497AC1D416CEA5B800A5929C /* Ragoo */,
-				497AC23316CEA69000A5929C /* RagooFrameworkTests */,
-				497AC1E516CEA5B800A5929C /* RagooTests */,
+				497AC21D16CEA68F00A5929C /* LibStarterFramework */,
+				497AC1D416CEA5B800A5929C /* LibStarter */,
+				497AC23316CEA69000A5929C /* LibStarterFrameworkTests */,
+				497AC1E516CEA5B800A5929C /* LibStarterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -433,12 +434,12 @@
 /* Begin PBXTargetDependency section */
 		497AC1ED16CEA5B800A5929C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 497AC1D416CEA5B800A5929C /* Ragoo */;
+			target = 497AC1D416CEA5B800A5929C /* LibStarter */;
 			targetProxy = 497AC1EC16CEA5B800A5929C /* PBXContainerItemProxy */;
 		};
 		497AC23816CEA69000A5929C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 497AC21D16CEA68F00A5929C /* RagooFramework */;
+			target = 497AC21D16CEA68F00A5929C /* LibStarterFramework */;
 			targetProxy = 497AC23716CEA69000A5929C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -517,9 +518,10 @@
 			buildSettings = {
 				DSTROOT = /tmp/Ragoo.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ragoo/RagooiOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "Ragoo/LibStarteriOS-Prefix.pch";
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LibStarter;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -529,9 +531,10 @@
 			buildSettings = {
 				DSTROOT = /tmp/Ragoo.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ragoo/RagooiOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "Ragoo/LibStarteriOS-Prefix.pch";
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LibStarter;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -545,7 +548,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ragoo/RagooiOS-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
+				PRODUCT_NAME = LibStarterTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -559,7 +563,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ragoo/RagooiOS-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
+				PRODUCT_NAME = LibStarterTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -578,10 +583,11 @@
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ragoo/RagooOSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "Ragoo/LibStarterOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LibStarterFramework;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -602,10 +608,11 @@
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ragoo/RagooOSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "Ragoo/LibStarterOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LibStarterFramework;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -621,8 +628,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ragoo/RagooOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LibStarterFrameworkTests;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -639,8 +647,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ragoo/RagooOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Ragoo/LibStarter-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LibStarterFrameworkTests;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -649,7 +658,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		497AC1D016CEA5B800A5929C /* Build configuration list for PBXProject "Ragoo" */ = {
+		497AC1D016CEA5B800A5929C /* Build configuration list for PBXProject "LibStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497AC1F816CEA5B800A5929C /* Debug */,
@@ -658,7 +667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		497AC1FA16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "Ragoo" */ = {
+		497AC1FA16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "LibStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497AC1FB16CEA5B800A5929C /* Debug */,
@@ -667,7 +676,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		497AC1FD16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "RagooTests" */ = {
+		497AC1FD16CEA5B800A5929C /* Build configuration list for PBXNativeTarget "LibStarterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497AC1FE16CEA5B800A5929C /* Debug */,
@@ -676,7 +685,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		497AC24716CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFramework" */ = {
+		497AC24716CEA69000A5929C /* Build configuration list for PBXNativeTarget "LibStarterFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497AC24316CEA69000A5929C /* Debug */,
@@ -685,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		497AC24816CEA69000A5929C /* Build configuration list for PBXNativeTarget "RagooFrameworkTests" */ = {
+		497AC24816CEA69000A5929C /* Build configuration list for PBXNativeTarget "LibStarterFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497AC24516CEA69000A5929C /* Debug */,
