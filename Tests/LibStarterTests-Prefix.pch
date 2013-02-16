@@ -4,5 +4,4 @@
 
 #ifdef __OBJC__
   #import "LibStarter-Prefix.pch"
-  #import <UIKit/UIKit.h>
 #endif

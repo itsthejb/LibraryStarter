@@ -50,8 +50,7 @@
 /* Begin PBXFileReference section */
 		4926718B16D0339700595493 /* LibStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LibStarter-Info.plist"; path = "Source/LibStarter-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4926718C16D0339700595493 /* LibStarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarter-Prefix.pch"; path = "Source/LibStarter-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		4926718D16D0339700595493 /* LibStarteriOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarteriOS-Prefix.pch"; path = "Source/LibStarteriOS-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		4926718E16D0339700595493 /* LibStarterOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarterOSX-Prefix.pch"; path = "Source/LibStarterOSX-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4949736416D04FA7009AB81A /* LibStarterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LibStarterTests-Prefix.pch"; path = "Tests/LibStarterTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		497AC1D516CEA5B800A5929C /* libLibStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibStarter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AC1D816CEA5B800A5929C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		497AC1E616CEA5B800A5929C /* LibStarterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibStarterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,8 +157,6 @@
 			children = (
 				4926718B16D0339700595493 /* LibStarter-Info.plist */,
 				4926718C16D0339700595493 /* LibStarter-Prefix.pch */,
-				4926718D16D0339700595493 /* LibStarteriOS-Prefix.pch */,
-				4926718E16D0339700595493 /* LibStarterOSX-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,6 +173,7 @@
 		497AC1F016CEA5B800A5929C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4949736416D04FA7009AB81A /* LibStarterTests-Prefix.pch */,
 				49CA6EC516CEAAD800661212 /* InfoPlist.strings */,
 				49CA6EC716CEAAD800661212 /* LibStarterTests-Info.plist */,
 			);
@@ -455,7 +453,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = "Source/LibStarter-Prefix.pch";
+				GCC_PREFIX_HEADER = "Source/$(PROJECT_NAME)-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -485,7 +483,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREFIX_HEADER = "Source/LibStarter-Prefix.pch";
+				GCC_PREFIX_HEADER = "Source/$(PROJECT_NAME)-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -501,7 +499,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/LibStarter.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarteriOS-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = LibStarter;
 				SKIP_INSTALL = YES;
@@ -513,7 +510,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/LibStarter.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarteriOS-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = LibStarter;
 				SKIP_INSTALL = YES;
@@ -528,7 +524,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarteriOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "Tests/$(PROJECT_NAME)Tests-Prefix.pch";
 				PRODUCT_NAME = LibStarterTests;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -542,7 +538,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarteriOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "Tests/$(PROJECT_NAME)Tests-Prefix.pch";
 				PRODUCT_NAME = LibStarterTests;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -562,7 +558,6 @@
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarterOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = LibStarterFramework;
@@ -586,7 +581,6 @@
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarterOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = LibStarterFramework;
@@ -603,7 +597,7 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarterOSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "Tests/$(PROJECT_NAME)Tests-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = LibStarterFrameworkTests;
@@ -621,7 +615,7 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/LibStarterOSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "Tests/$(PROJECT_NAME)Tests-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = LibStarterFrameworkTests;
