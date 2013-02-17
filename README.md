@@ -13,9 +13,12 @@ Features
 How To Use
 ----------
 
-Clone and use the XCode project rename feature to rename everything with `LibraryStarter` 
-to whatsoever you please. 
+1. Clone this repo.
+2. Use the XCode project rename feature to rename everything with `LibraryStarter` 
+to whatsoever you please.
 See the top answer at [http://stackoverflow.com/questions/5416677/renaming-projects-in-xcode-4](http://stackoverflow.com/questions/5416677/renaming-projects-in-xcode-4)
-for more info. Then push to a new repository.
+for more info. 
+3. Replace this `README` with something more appropriate.
+4. Push to a new repository.
 
 Enjoy!
